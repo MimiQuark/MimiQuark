@@ -4,7 +4,7 @@ LLM 应用与数据工程 · RAG / Agent · 数据管线与质量治理
 
 **大模型应用**
 
-- [多城市空气质量 RAG 问答与预警 Agent](https://github.com/MimiQuark/AirQuality-RAG-Case-Study) — 混合检索 + 置信度拒答 + 可复现评测（团队 3 人，本人负责检索、评测与 CI）
+- [多城市空气质量 RAG 问答与预警 Agent](https://github.com/MimiQuark/AirQuality-RAG-Case-Study) — 混合检索 + 置信度拒答 + 可复现评测（团队 5 人，本人负责 RAG 与评测）
 - [VideoExtract-ASR-OCR-LLM](https://github.com/MimiQuark/VideoExtract-ASR-OCR-LLM) — 本地优先的视频转文字管线
 - [Industrial-Defect-Multimodal-Pipeline](https://github.com/MimiQuark/Industrial-Defect-Multimodal-Pipeline) — 多模态 SFT 数据管线
 
