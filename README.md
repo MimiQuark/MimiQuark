@@ -20,7 +20,7 @@ LLM 应用与数据工程 · RAG / Agent · 数据管线与质量治理
 | --- | --- | --- | --- |
 | [DataGuard 数据质量监控](https://github.com/MimiQuark/AI-Data-Project-Showcase/blob/main/projects/04-dataguard.md) | 个人数据工程工具；独立实现 | 12 类规则、28 项检查、17 项测试 | 样例端到端运行；问题历史与自动闭环可复现 |
 | [RetailScope 零售数仓与 Tableau 看板](https://github.com/MimiQuark/AI-Data-Project-Showcase/blob/main/projects/05-retailscope.md) | 个人数仓与 BI 项目；独立实现 | 11.3 万行合成明细、14 个 KPI、4 个看板页 | 9 项数仓校验、8 项测试；合成数据，不产生真实经营结论 |
-| [Olist 电商经营分析与 RFM 分层](https://github.com/MimiQuark/AI-Data-Project-Showcase/blob/main/projects/06-olist-rfm.md) | 个人公开数据分析；独立实现 | 约 10 万条订单、6 张表、9.47 万名客户 | 区域、趋势、品类和 RFM 结果可复现 |
+| [Olist 电商经营分析与 RFM 分层](https://github.com/MimiQuark/AI-Data-Project-Showcase/blob/main/projects/06-olist-rfm.md) | 3 人工作室团队；本人负责 SQL 建模与 RFM | 约 10 万条订单、6 张表、9.47 万名客户 | 区域、趋势、品类和 RFM 结果可复现 |
 
 ## 工业视觉与生成建模
 
