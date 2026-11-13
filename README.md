@@ -4,28 +4,30 @@ LLM 应用与数据工程 · RAG / Agent · 数据管线与质量治理
 
 2026 届人工智能本科毕业生，关注大模型应用、RAG、AI 数据工程与数据质量治理。以下项目统一注明项目类型、本人角色、规模及验证边界；代码实现、样例验证和真实业务效果不作等同表述。
 
+> 项目源代码、原始数据、模型权重和部署配置均不公开。本页链接至只读项目说明，完整技术材料可在面试及授权沟通中展示。
+
 ## 大模型应用与 RAG
 
 | 项目 | 类型与角色 | 核心规模 | 当前证据 |
 | --- | --- | --- | --- |
-| [多城市空气质量 RAG 问答与预警 Agent](https://github.com/MimiQuark/AirQuality-RAG-Case-Study) | 5 人团队；技术负责人，负责 RAG、评测与 CI | 6 城市、52,704 条小时级数据、10 个领域工具 | 开发集 Recall@5 0.985；拒答准确率 0.562 → 0.896；公开文档与评测，源码私有 |
-| [工业图档异步处理与审核平台](https://github.com/MimiQuark/Industrial-Document-Processing-Platform) | 个人后端工程；独立实现 | 3 类图档、27 个 API 路由、14 项测试 | 容器化运行；覆盖幂等、Outbox、状态机、审核与审计 |
-| [工业缺陷多模态数据构建与质量过滤管线](https://github.com/MimiQuark/Industrial-Defect-Multimodal-Pipeline) | 个人项目；独立实现 | 2 条数据管线、42 张合成演示图、39 条 SFT 样本 | 格式校验通过率 76.9% → 100%；运行报告与数据版本可复现 |
+| [多城市空气质量 RAG 问答与预警 Agent](https://github.com/MimiQuark/AI-Data-Project-Showcase/blob/main/projects/01-rag-agent.md) | 5 人团队；技术负责人，负责 RAG、评测与 CI | 6 城市、52,704 条小时级数据、10 个领域工具 | 开发集 Recall@5 0.985；拒答准确率 0.562 → 0.896；源码私有 |
+| [工业图档异步处理与审核平台](https://github.com/MimiQuark/AI-Data-Project-Showcase/blob/main/projects/02-industrial-document-platform.md) | 个人后端工程；独立实现 | 3 类图档、27 个 API 路由、14 项测试 | 容器化运行；覆盖幂等、Outbox、状态机、审核与审计 |
+| [工业缺陷多模态数据构建与质量过滤管线](https://github.com/MimiQuark/AI-Data-Project-Showcase/blob/main/projects/03-multimodal-data-pipeline.md) | 个人项目；独立实现 | 2 条数据管线、42 张合成演示图、39 条 SFT 样本 | 格式校验通过率 76.9% → 100%；数据版本与运行报告完整 |
 
 ## 数据工程、质量与分析
 
 | 项目 | 类型与角色 | 核心规模 | 当前证据 |
 | --- | --- | --- | --- |
-| [DataGuard 数据质量监控](https://github.com/MimiQuark/DataGuard-Data-Quality-Monitoring) | 个人数据工程工具；独立实现 | 12 类规则、28 项检查、17 项测试 | 样例端到端运行；问题历史与自动闭环可复现 |
-| [RetailScope 零售数仓与 Tableau 看板](https://github.com/MimiQuark/RetailScope-Data-Warehouse-Tableau-Dashboard) | 个人数仓与 BI 项目；独立实现 | 11.3 万行合成明细、14 个 KPI、4 个看板页 | 9 项数仓校验、8 项测试；合成数据，不产生真实经营结论 |
-| [Olist 电商经营分析与 RFM 分层](https://github.com/MimiQuark/Olist-Ecommerce-RFM-Analysis) | 个人公开数据分析；独立实现 | 约 10 万条订单、6 张表、9.47 万名客户 | 区域、趋势、品类和 RFM 结果与图表已公开 |
+| [DataGuard 数据质量监控](https://github.com/MimiQuark/AI-Data-Project-Showcase/blob/main/projects/04-dataguard.md) | 个人数据工程工具；独立实现 | 12 类规则、28 项检查、17 项测试 | 样例端到端运行；问题历史与自动闭环可复现 |
+| [RetailScope 零售数仓与 Tableau 看板](https://github.com/MimiQuark/AI-Data-Project-Showcase/blob/main/projects/05-retailscope.md) | 个人数仓与 BI 项目；独立实现 | 11.3 万行合成明细、14 个 KPI、4 个看板页 | 9 项数仓校验、8 项测试；合成数据，不产生真实经营结论 |
+| [Olist 电商经营分析与 RFM 分层](https://github.com/MimiQuark/AI-Data-Project-Showcase/blob/main/projects/06-olist-rfm.md) | 个人公开数据分析；独立实现 | 约 10 万条订单、6 张表、9.47 万名客户 | 区域、趋势、品类和 RFM 结果可复现 |
 
 ## 工业视觉与生成建模
 
 | 项目 | 类型与角色 | 核心规模 | 当前证据 |
 | --- | --- | --- | --- |
-| [PCBA YOLOv8 五类缺陷检测](https://github.com/MimiQuark/PCBA-Defect-Detection-YOLOv8) | 个人工业视觉项目；使用授权内部数据 | 600 张图像、4,552 个目标框、5 类缺陷 | CPU 训练 2.96 小时；冻结测试集 mAP50 87.94% |
-| [Focus-StyleGAN 工业缺陷图像增广](https://github.com/MimiQuark/Focus-StyleGAN-Defect-Augmentation) | 毕业设计；个人开发 | 4 类增广管线；模型、训练、评估与 Web 演示 | 实现与 15 项测试已提供；完整训练和基准指标待复现 |
+| [PCBA YOLOv8 五类缺陷检测](https://github.com/MimiQuark/AI-Data-Project-Showcase/blob/main/projects/07-pcba-yolov8.md) | 个人工业视觉项目；使用授权内部数据 | 600 张图像、4,552 个目标框、5 类缺陷 | CPU 训练 2.96 小时；冻结测试集 mAP50 87.94% |
+| [Focus-StyleGAN 工业缺陷图像增广](https://github.com/MimiQuark/AI-Data-Project-Showcase/blob/main/projects/08-focus-stylegan.md) | 毕业设计；个人开发 | 4 类增广管线；模型、训练、评估与 Web 演示 | 实现与 15 项测试已提供；完整训练和基准指标待复现 |
 
 ## 统一口径
 
@@ -34,3 +36,4 @@ LLM 应用与数据工程 · RAG / Agent · 数据管线与质量治理
 - **项目规模**优先使用数据量、系统模块、接口或测试数量等可核对信息。
 - **验证状态**区分代码实现、样例运行、真实数据评估与完整实验。
 - **公开边界**明确数据、权重、源码不能公开或尚未复现的部分。
+- **代码范围**仅提供项目说明，不公开底层实现、数据集、模型权重或部署材料。
